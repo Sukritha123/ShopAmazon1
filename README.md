@@ -13,7 +13,7 @@ Additional Features :
 	1. Custom command is implemented for 'login' functionality to improve code reuse. 
 	2. Fixture file is used to store test values for email, password, product names, menu options. So these test values are not hardcoded in test scripts. 
 	3. Retries functionality has been added. To automatically rerun failed test due to environment. 
-        4. Assertions have been used to test the behaviour and data values.
+ 	4. Assertions have been used to test the behaviour and data values.
 	
 Execution Instruction:
 
