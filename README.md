@@ -1,19 +1,19 @@
 # ShopAmazon1
 
-Web Automation framework to test Amazon website.
+Web Automation framework to test Amazon website and demonstrate cross browser testing using other websites.
 
 Project Title : ShopAmazon1
 
 Description: 
-This project is to develop a web automation test framework to test Amazon website.  This task is achieved with Cypress using Javascript.
+This project is to develop a web automation test framework to test Amazon website and demonstrate cross browser testing using other websites.  This task is achieved with Cypress using Javascript using Page Object Pattern. 
  
 
 Additional Features :
 
 	1. Custom command is implemented for 'login' functionality to improve code reuse. 
-	2. Fixture file is used to store test values for email, password, product names, menu options. So these test values are not hardcoded in test scripts. 
-	3. Retries functionality has been added. To automatically rerun failed test due to environment. 
- 	4. Assertions have been used to test the behaviour and data values.
+	2. Fixture file is used to store test values for email, password, product names, menu options. So these test values are not hardcoded in test scripts.  
+ 	3. Assertions have been used to test the behaviour and data values.
+  	4. Page Object Pattern model is implemented. 
 	
 Execution Instruction:
 
@@ -49,5 +49,7 @@ Recommendations:
 
 Screenshots of execution reports: 
 
-![Screenshot_Overall](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/6a667915-2162-4940-a078-b575e9b37f82)
-![Screenshot_individual_tests](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/191b6ebd-5688-4ade-8dd9-751eafb78312)
+![TextBox and SandwichIcon Test Run Screenshot](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/6cb8608c-6591-4266-909c-fbd1566f7022)
+![TodaysDeals and CrossDomain Test Run Screenshot](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/aa9ba02a-82e4-47dd-892a-c86bed429540)
+
+
