@@ -14,6 +14,8 @@ Additional Features :
 	2. Fixture file is used to store test values for email, password, product names, menu options. So these test values are not hardcoded in test scripts.  
  	3. Assertions have been used to test the behaviour and data values.
   	4. Page Object Pattern model is implemented. 
+   	5. Window alerts are captured and validated.
+    	6. Cross Domain testing is performed.
 	
 Execution Instruction:
 
@@ -49,7 +51,11 @@ Recommendations:
 
 Screenshots of execution reports: 
 
-![TextBox and SandwichIcon Test Run Screenshot](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/6cb8608c-6591-4266-909c-fbd1566f7022)
-![TodaysDeals and CrossDomain Test Run Screenshot](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/aa9ba02a-82e4-47dd-892a-c86bed429540)
+![image](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/de9a0257-dd5d-4cd3-b570-0abd8f388f4e)
+![image](https://github.com/Sukritha123/ShopAmazon1/assets/144372708/6504234e-831f-4d4d-9302-3308d04f5e9f)
+
+
+
+
 
 
