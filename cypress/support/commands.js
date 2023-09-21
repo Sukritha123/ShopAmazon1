@@ -11,6 +11,7 @@
 //
 // -- This is a Login command --
  Cypress.Commands.add('login', (email, password) => { 
+    cy.contains('Continue without accepting').click();
     cy.get('#nav-link-accountList').click()
     cy.contains('Sign in')
     cy.get('input#ap_email').type(email)

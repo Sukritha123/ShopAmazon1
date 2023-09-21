@@ -5,10 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
 
     },
-    specPattern: 'cypress/integration/search/*.js'
-  },
-  env: {
-    url: 'https://www.amazon.co.uk'
-  },
-  retries: { openMode:1,runMode:1 } //to retry the test on failure
+    specPattern: 'cypress/integration/*/*.js'
+    ,experimentalOriginDependencies: true
+  }
+//  ,retries: { openMode:1,runMode:1 } //to retry the test on failure
 });
